@@ -114,6 +114,10 @@ img {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
+.skills__layout {
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+}
 .l-header {
   width: 100%;
   position: fixed;
@@ -435,7 +439,6 @@ img {
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
     column-gap: 2rem;
   }
   .contact__form {
